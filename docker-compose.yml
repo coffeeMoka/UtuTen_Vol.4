@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nodeapp:
+    build: ./
+    container_name: nodeapp
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./app:/opt/app
+    working_dir: /opt/app
+    command: node app.js
