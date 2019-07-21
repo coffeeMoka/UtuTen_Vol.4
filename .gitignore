@@ -59,3 +59,5 @@ app/.env
 
 # next.js build output
 app/.next
+
+*.code-workspace
