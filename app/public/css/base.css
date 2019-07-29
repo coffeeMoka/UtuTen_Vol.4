@@ -1,0 +1,23 @@
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+}
+ 
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+ 
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+ 
+button:active {
+    transform: scale(0.99);
+}
